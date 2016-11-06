@@ -44,10 +44,3 @@ var coloredZebraStripes = zebraStripes.map (function(stripe, index) {
     color: isEven ? 'white' : 'black'
   })
 })
-
-// const coloredZebraStripes = zebraStripes.map((stripe, index) => {
-//   const isEven = (index % 2) === 0;
-//   return Object.assign({}, stripe, {
-//     color: isEven ? 'black' : 'white'
-//   });
-// });
